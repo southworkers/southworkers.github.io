@@ -101,11 +101,8 @@ body {
     text-align: right;
     max-width: 600px;
 }
-
-.inline_title a{
+.card a{
     color: #0081F6;
-    margin-left: 60px;
-    margin-right: 30px;
 }
 
 #scrollToTopButton {
