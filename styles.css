@@ -93,7 +93,19 @@ body {
     background: linear-gradient(to right, #0081F6 20%, #ffffff 30%);
 }
 
-
+.category h2{
+    color: #0081F6;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+}
 
 .card {
     margin-bottom: 10px;
