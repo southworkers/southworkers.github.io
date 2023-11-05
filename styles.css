@@ -42,12 +42,40 @@ body {
     1px 1px 0 #ffffff;
 }
 
+.home-content h1 {
+    color: #0081F6;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 100px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.home-content a{
+    text-decoration: none;
+    color: #0081F6;
+}
+
+
 .home-content p {
-    color: #0074e0;
+    color: #0081F6;
     font-size: 16px;
     font-weight: 600;
     text-align: right;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
 }
+
+
+
+
 
 .btn-box {
     margin: 10px;
@@ -135,6 +163,21 @@ body {
     cursor: pointer;
     z-index: 999; /* Ensure it appears above other content */
 }
+
+#scrollToTopButton {
+    position: fixed; /* Fixed position for floating */
+    bottom: 5px; /* Adjust the distance from the bottom as needed */
+    left: 20px; /* Adjust the distance from the left as needed */
+    display: none; /* Initially hide the button */
+    background-color: #0074e0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+
 
 /* .infoparagraph{
     display: flex;
