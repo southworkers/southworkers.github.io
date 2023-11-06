@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff 70%, #0081F6 80%);
+    font-family: sans-serif;
+}
+
+.top-header {
+    background-color: #ffffff;
+    color: #0081F6;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid #0081F6;
+    
+}
+
+
+.home{
+    display: block;
+    justify-content: flex-start;
+    padding: 0 10%;
+}
+
+.home-content{
+    height: 100vh;
+    max-width: 600px;
+}
+
+.btns_block{
+    display: block;
+}
+.home-content h2 {
+    color: #0081F6;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.home-content h1 {
+    clear: both;
+    display: block;
+    color: #0081F6;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.home-content a{
+    /* text-decoration: none; */
+    color: #0081F6;
+}
+
+
+.home-content p {
+    color: #0081F6;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+}
+
+
+
+
+
+.btn-box {
+    margin: 5px;
+    float:left;
+    font-size: 18px;
+    background-color: #ffffff;
+    justify-self: flex-start;
+    border: 3px solid #0081F6;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-flex;
+    color: #0074e0;
+}
+
+.btn-box a{
+    justify-self: flex-start;
+    text-decoration: none;
+    display: inline-flex;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    color: #0081F6;
+    font-weight: 600;
+    border: 3px solid #0081F6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.category {
+    justify-content: flex-start;
+    display: grid;
+    padding: 20px;
+    background: #ffffff;
+    color: #0081F6;
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(to right, #ffffff 70%, #0081F6 80%);
+}
+
+.category h2{
+    color: #0081F6;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+}
+
+.card {
+    margin-bottom: 10px;
+    float: right;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #0081F6;
+    box-shadow: -2px 2px 2px #0081F6;
+    border-radius: 3px;
+    max-width: 600px;
+}
+
+.card a{
+    color: #0081F6;
+}
+
+
+#scrollToTopButton {
+    position: fixed; /* Fixed position for floating */
+    bottom: 45px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the left as needed */
+    display: none; /* Initially hide the button */
+    background-color: #0074e0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+#langButton {
+  position: fixed; /* Fixed position for floating */
+  bottom: 5px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the left as needed */
+  /* display: none; Initially hide the button */
+  background-color: #0074e0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 10px;
+  cursor: pointer;
+  z-index: 999; /* Ensure it appears above other content */
+}
+
+.switch {
+    position: fixed;
+    bottom: 5px; /* Adjust the distance from the bottom as needed */
+    right: 20px;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .switch > span {
+    position: absolute;
+    top: 14px;
+    pointer-events: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+    width: 50%;
+    text-align: center;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .off {
+    color: #0074e0;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .on {
+    color: #fff;
+  }
+  
+  .switch > span.on {
+    left: 0;
+    padding-left: 2px;
+    color: #0074e0;
+  }
+  
+  .switch > span.off {
+    right: 0;
+    padding-right: 4px;
+    color: #fff;
+  }
+  
+  .check-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+  }
+  .check-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  input.check-toggle-round-flat + label {
+    padding: 2px;
+    width: 97px;
+    height: 35px;
+    background-color: #0074e0;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+  }
+  
+  input.check-toggle-round-flat + label:before {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #0074e0;
+    -webkit-
+    
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 48px;
+    background-color: #fff;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -ms-border-radius: 52px;
+    -o-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: margin 0.2s;
+    -moz-transition: margin 0.2s;
+    -o-transition: margin 0.2s;
+    transition: margin 0.2s;
+  }
+  
+  input.check-toggle-round-flat:checked + label {
+  }
+  
+  input.check-toggle-round-flat:checked + label:after {
+    margin-left: 44px;
+  }
+
