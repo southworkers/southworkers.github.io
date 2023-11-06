@@ -7,8 +7,8 @@ document.getElementById('asthetic_btn').addEventListener('click', function() {
 document.getElementById('driver_btn').addEventListener('click', function() {
     document.getElementById('drivers').scrollIntoView({ behavior: 'smooth' });
 });
-document.getElementById('gardner_btn').addEventListener('click', function() {
-    document.getElementById('gardners').scrollIntoView({ behavior: 'smooth' });
+document.getElementById('gardener_btn').addEventListener('click', function() {
+    document.getElementById('gardeners').scrollIntoView({ behavior: 'smooth' });
 });
 document.getElementById('plumber_btn').addEventListener('click', function() {
     document.getElementById('plumbers').scrollIntoView({ behavior: 'smooth' });
