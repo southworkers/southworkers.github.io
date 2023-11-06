@@ -43,11 +43,14 @@ body {
 }
 
 .home-content h1 {
+    clear: both;
+    display: block;
     color: #0081F6;
     font-size: 16px;
     font-weight: 700;
     text-align: right;
     margin-top: 100px;
+    margin-bottom: 50px;
     text-shadow:
     -1px -1px 0 #ffffff,
     1px -1px 0 #ffffff,
@@ -110,8 +113,11 @@ body {
 }
 
 .category {
+    clear: both;
+    display: block;
     justify-content: flex-end;
     display: grid;
+    margin-top: 50px;
     padding: 20px;
     background: #ffffff;
     color: #0081F6;
