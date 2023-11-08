@@ -151,12 +151,12 @@ body {
 
 #scrollToTopButton {
     position: fixed; /* Fixed position for floating */
-    bottom: 45px; /* Adjust the distance from the bottom as needed */
+    bottom: 35px; /* Adjust the distance from the bottom as needed */
     right: 20px; /* Adjust the distance from the left as needed */
     display: none; /* Initially hide the button */
     background-color: #0074e0;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -167,10 +167,12 @@ body {
   position: fixed; /* Fixed position for floating */
   bottom: 5px; /* Adjust the distance from the bottom as needed */
   right: 20px; /* Adjust the distance from the left as needed */
-  /* display: none; Initially hide the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #0074e0;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
   border-radius: 20px;
   font-size: 10px;
@@ -178,6 +180,11 @@ body {
   z-index: 999; /* Ensure it appears above other content */
 }
 
+.lng_img{
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1px;
+}
 .switch {
     position: fixed;
     bottom: 5px; /* Adjust the distance from the bottom as needed */
