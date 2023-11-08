@@ -16,6 +16,9 @@ document.getElementById('plumber_btn').addEventListener('click', function() {
 document.getElementById('assorted_btn').addEventListener('click', function() {
     document.getElementById('assorted').scrollIntoView({ behavior: 'smooth' });
 });
+document.getElementById('cleaning_btn').addEventListener('click', function() {
+    document.getElementById('cleaning').scrollIntoView({ behavior: 'smooth' });
+});
 document.getElementById('scrollToTopButton').addEventListener('click', function() {
     document.getElementById('top').scrollIntoView({ behavior: 'smooth' });
 });
